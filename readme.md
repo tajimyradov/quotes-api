@@ -77,7 +77,7 @@ DELETE /quotes/{id}
 Генерация документации:
 
 ```bash
-swag init -g handlers/quote_handler.go
+swag init -g handlers/handler.go
 ```
 
 Swagger UI доступен по адресу:
@@ -101,5 +101,3 @@ go test ./...
 ## Логирование
 
 Сервис логирует действия создания, получения и удаления цитат.
-# quotes-api
-# quotes-api
